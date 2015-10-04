@@ -1,0 +1,41 @@
+
+#aboutTop {
+    border: none;
+}
+h1 {
+    border: none;
+}
+
+#aboutText {
+    font-size:140%;
+    width: 45%;
+    height: 40%;
+    color: darkgrey;
+    float:right;
+    margin: 10px;
+    padding:5%;
+    border: none;
+
+    
+}
+ #mervPhoto {
+    border-radius: 100%; 
+    max-width:21%;
+    float:left;
+    margin: 25px, 10px, 10px, 20px;
+    padding:5%;
+    border: none;
+
+}
+#aboutContent {
+    border: none;
+}
+
+#aboutPhoto {
+    border: none;
+    margin: auto;
+}
+img {
+    border: none;
+    padding-top: 5%;
+}

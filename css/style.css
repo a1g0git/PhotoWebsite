@@ -4,7 +4,7 @@
 
 h1{
     font-size: 96px;
-    font-family: serif;
+    font-family: cursive;
     font-style: italic;
     text-align: center;
     color: silver;
@@ -25,6 +25,11 @@ h1{
         align-items: center;
         
     }
+.bigger {
+        border-radius: 15%;
+        align-items: center;
+}
+    
 .page1span {
     background-color:antiquewhite;
     height: 90px;
