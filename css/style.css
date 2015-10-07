@@ -27,11 +27,16 @@ h1{
     }
 .bigger {
         border-radius: 15%;
-        align-items: center;
+        float: left;
+    max-width: 50%;
 }
     
 .page1span {
     background-color:antiquewhite;
     height: 90px;
     width: 100;
+}
+
+#shopSelectBox {
+    float: right;
 }
