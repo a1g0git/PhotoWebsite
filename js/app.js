@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $("#phototheme").change(function(){
-  location.href= jQuery(this).val();  
+  location.href=jQuery(this).val();  
     
 })
 
