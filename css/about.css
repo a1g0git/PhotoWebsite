@@ -40,7 +40,23 @@ img {
     padding-top: 5%;
 }
 
+
+ @media screen and (max-width:732px) {
+    #aboutText { 
+font-size: 1em;
+        float:left;
+        margin-right: 5px;
+        
+    }
+     
+     @media screen and (max-width:732px) {
+    #mervPhoto { 
+        min-width: 50%;
+            object-position: center;
+        padding-bottom: 5px;
+    }
 .contactPopup {
+    
     position: fixed;
     top: 0;
     right: 0;
@@ -62,6 +78,11 @@ img {
 
     pointer-events: auto;
 
+}
+
+#box {
+    width: 100%;
+    height: 800px;
 }
 
 .contactPopup > div {

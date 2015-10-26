@@ -17,7 +17,7 @@
 
 h1 {
    padding-top: 40px;
-    font-size: 105px;
+    font-size: 98px;
     font-family: serif;
         
     font-style: italic;
@@ -40,26 +40,30 @@ h1 {
 
 li {
 list-style: none;
-    background-color: rosybrown;
+    background-color: burlywood;
     display: inline-block;
     padding: 12px;
-    border-top-left-radius: 15%:
+    border-top-left-radius: 22%;
+    font-size-adjust: auto;
+    font-size: 1.5em;
 }
 
 ul {
  margin-bottom: 0;   
-    background-color: bbb;
+    background-color: darkkhaki;
     
     
 }
 #mainParagraph {
     font-family: inherit;
     font-size: 26px;
-    color: black;
+    color: saddlebrown;
     background-color: burlywood;
     align-content: center;
     margin-top: 0;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #secondaryParagraph {
@@ -100,4 +104,38 @@ ul {
 
 #shopSelectBox {
     float: right;
+    height: 2em;
+    box-sizing: inherit;
 }
+.styled-select select {
+    overflow: visible;    
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+@media screen and (max-width:732px) {
+ #top { 
+     height: auto;
+ }
+     
+@media screen and (max-width:732px) {
+    h1 { 
+font-size: 36px;
+}
+ }
+    @media screen and (max-width:732px) {
+    #mainParagraph { 
+font-size: 20px;
+}
+}
+    @media screen and (max-width:732px) {
+    li { 
+font-size: 18px;
+    }}
