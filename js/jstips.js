@@ -1,11 +1,8 @@
-$(document).ready(function(){
-$("#phototheme").change(function(){
-  location.href=jQuery(this).val();  
-    
-});
+document).ready(function(){
+//this will sort my tips
 
 
-$(".contactBox").load("https://mervgibsonimages.com/contactus.sc");
+
 
 $("#slr").click(function(){
     $(".tips").hide();
@@ -22,7 +19,4 @@ $("#pS").click(function(){
     $(".pS").show();
 });
     
-
 });
-
-

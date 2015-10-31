@@ -107,6 +107,13 @@ ul {
     height: 2em;
     box-sizing: inherit;
 }
+
+#phototheme {
+    height: 4em;
+    font-size: 20px;
+}
+
+
 .styled-select select {
     overflow: visible;    
    background: transparent;
@@ -124,8 +131,7 @@ ul {
  #top { 
      height: auto;
  }
-     
-@media screen and (max-width:732px) {
+
     h1 { 
 font-size: 36px;
 }
