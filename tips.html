@@ -5,47 +5,54 @@
      <link rel="stylesheet" href="css/tips.css">
     </head>
 <body>
-    <nav>
-   <a href="/index/">HOME</a> |
-   <a href="/about/">ABOUT</a> |
-   <a href="/tips/">TIPS</a> |
-   <a href="buy/">BUY</a>
-</nav>
+     <nav>
+        <ul id="menu">
+            <li class="nav"><a href="#"><i class="material-icons">home</i>HOME</a></li>
+            <li class="nav"><a href="about.html"><i class="material-icons">face</i>ABOUT</a></li>
+            <li class="nav"><a href="tips.html"><i class="material-icons">assignment</i>TIPS</a></li>
+            <li class="nav"><a href="http://mervgibsonimages.com"><i class="material-icons">&#xE227;</i>BUY</a></li>
+        </ul>
+            </nav>
     
+     
+    
+    <div id="tips-main-content">
     <h1>Want to take great Photos of your roses?</h1>
-    <p>Watch the slideshow video below and check out Merv's tips.</p>
+    <h2>Watch the slideshow video below for exaamples of how these tips can help. Check out Merv's tips.</h2>
     
-    <div class="wrapper">
-    <video src="video/rose1.mp4" type=video/mp4 controls>
+     <video src="video/rose1.mp4" type=video/mp4 controls>
         
         
         </video>
+        
+        <i class="material-icons">face</i>
     
-    </div>
-  <h2>You and Your Camera</h2>
+     <h2>What kind of camera?</h2>
 <div id=types>
-<h3>Types of Cameras</h3>
-        <button id="slr">"SLR-advanced camera"</button>
-    <button id="pS">point-and-shoot</button>
-        <button id="cP">cellphone camera</button>
+<h3>Click your  types of camerato see the tips</h3>
+        <button class="pick-camera" id="slr"><i class="material-icons">camera</i>advanced/SLR</button>
+    <button class="pick-camera" id="ps"><i class="material-icons">camera_alt</i>point&shoot</button>
+<button class="pick-camera" id="cp"><i class="material-icons">smartphone</i>cellphone</button>
+
         
     <div id="tips">
-        <p id=tipstext>Want to take brilliant photos of your roses?!!!</p>
+        <p id=tipstext>Want to take brilliant photos of your roses?</p>
 
 
-        <h4 class="tips cP">Cell Phone</h4>
-        <h4 class="tips pS">Point and Shoot</h4>
+        <h4 class="tips cp">Cell Phone</h4>
+        <h4 class="tips ps">Point-and-Shoot</h4>
         
 <h4 class="tips slr">Interchangeable Lens:</h4> 
-<ul>
-<li>Single Lens Reflex (frame shot through lens via mirror/eye piece) </li>
+<ul class="tips slr">
+<li>Single Lens Reflex (frame shot through lens via mirror/eye piece)</li>
 <li>Single Lens No-reflex (no mirror, frame shot on display screen) </li>
 </ul>
 </div>
 <h2>How Your Camera Works</h2>
 
-        <p>Rose’s reflected light goes through the lens onto a chip that converts the light into a digital code. The camera has three ways to adjust how light affects the chip.</p>
-    <ul class=lightWays>
+        <p>Rose’s reflected light goes through the lens onto a chip that converts the light into a digital code.</p>
+    <p class="tips slr"The camera has three ways to adjust how light affects the chip.</p>
+    <ul class=lightWays class="tips slr">
         <li class="slr">Aperture setting (f stop): how wide the shutter opens: 
 f4.0 = large shutter opening; f22 = small shutter opening</li>
            <li>Time: how long the shutter stays open</li>
@@ -63,9 +70,9 @@ ISO 200, 400, 800, 1600 are common settings. The higher the number, the more sen
            
     <li class="tips slr">Set your camera’s ISO to 400 or choose “variable” to allow camera to set ISO for each shot</li>
 •	
-        <li class="tips slr pS">Put camera on tripod (!!!) to get a sharp picture.</li>
+        <li class="tips slr ps">Put camera on tripod (!!!) to get a sharp picture.</li>
             
-    <h4 class="tips cP">Choose Your Rose</h4>
+    <h4 class="tips cp">Choose Your Rose</h4>
 •	Select rose to photograph as if you were a rose show judge.
 •	Would you take this rose to a rose show? The photo can be no better than the chosen subject.
 •	Is the foliage quality equal to that of the blossom?
@@ -134,6 +141,9 @@ will be in focus.
         </p>
     
     </div>
+    </div>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
     </body>

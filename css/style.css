@@ -38,7 +38,7 @@ h1 {
     
 }
 
-li {
+.nav {
 list-style: none;
     background-color: burlywood;
     display: inline-block;
@@ -112,7 +112,21 @@ ul {
     height: 4em;
     font-size: 20px;
 }
+a:link {
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
 
 .styled-select select {
     overflow: visible;    
