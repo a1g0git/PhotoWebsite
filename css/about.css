@@ -2,6 +2,24 @@
 #aboutTop {
     border: none;
 }
+
+
+.nav {
+list-style: none;
+    background-color: burlywood;
+    display: inline-block;
+    padding: 12px;
+    border-top-left-radius: 22%;
+    font-size-adjust: auto;
+    font-size: 1.5em;
+}
+
+ul {
+ margin-bottom: 0;   
+    background-color: darkkhaki;
+    
+    
+}
 h1 {
     border: none;
 }
@@ -39,21 +57,114 @@ img {
     border: none;
     padding-top: 5%;
 }
+a:active {
+    text-decoration: underline;
+    color: lightsalmon;
+}
 
+
+a:visited {
+    text-decoration: none;
+    color:crimson;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.links {
+    font-size:32px;
+    padding: 0;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+#shop {
+    padding: 25px 0 10px 0;
+}
 
  @media screen and (max-width:732px) {
     #aboutText { 
-font-size: 1em;
+font-size: 1.5em;
         float:left;
         margin-right: 5px;
-        
-    }
-     
+        width: 80%;
+            }
+ }
      @media screen and (max-width:732px) {
     #mervPhoto { 
         min-width: 50%;
             object-position: center;
         padding-bottom: 5px;
+    }
+    .links {
+        font-size: 1.5em;
+        max-width: 90%;
+    }
+          }
+         
+         @media screen and (min-width:733px) {
+    .mobileNav {
+        display: none;
+    }
+         }
+         
+         @media screen and (max-width:732px) {
+ #top { 
+     height: auto;
+ }
+            
+
+    h1 { 
+font-size: 36px;
+}
+    .desktopNav {
+        display: none;
+    }
+    
+    .mobileNav ul  {
+        list-style: none;
+        margin: 0;
+        padding:0;
+        
+    }
+    .mobileNav ul li:hover {
+     background: #555; 
+    width: 100px;
+        
+    }
+    
+    .mobileNav ul li:hover ul {
+       display:block; 
+            }
+    .mobileNav ul li ul {
+    position: absolute;
+        width: 100px;
+        display: none;
+ }
+    
+    .mobileNav ul li ul li {
+      background: #555;
+        display: block;
+    }
+    
+    .mobileNav ul li ul li a{
+    display: block;
+    }
+     .mobileNav ul li ul li:hover {
+         background: #666;
+         
+     }
+             
+              .material-icons {
+                 font-size: 50px;
+             }
     }
 .contactPopup {
     

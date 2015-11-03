@@ -12,14 +12,14 @@ $("#slr").click(function(){
     $(".slr").show();
 });
 
-$("#cP").click(function(){
+$("#cp").click(function(){
     $(".tips").hide();
-    $(".cP").show();
+    $(".cp").show();
 });
 
-$("#pS").click(function(){
+$("#ps").click(function(){
     $(".tips").hide();
-    $(".pS").show();
+    $(".ps").show();
 });
     
 

@@ -38,6 +38,10 @@ h1 {
     
 }
 
+option {
+    font-size: 1.5em;
+}
+
 .nav {
 list-style: none;
     background-color: burlywood;
@@ -69,7 +73,7 @@ ul {
 #secondaryParagraph {
     float: right;
     font-family: sans-serif;
-    font-size: 26;
+    font-size: 26px;
     padding: 8px 0;
 }
     
@@ -104,8 +108,8 @@ ul {
 
 #shopSelectBox {
     float: right;
-    height: 2em;
-    box-sizing: inherit;
+    height: 1.55em;
+    box-sizing: 2em;
 }
 
 #phototheme {
@@ -127,7 +131,9 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
-
+.material-icons {
+    font-size: 1.5em;
+}
 .styled-select select {
     overflow: visible;    
    background: transparent;
@@ -141,6 +147,13 @@ a:active {
    -webkit-appearance: none;
    }
 
+@media screen and (min-width:733px) {
+    .mobileNav {
+        display: none;
+    }
+    
+}
+
 @media screen and (max-width:732px) {
  #top { 
      height: auto;
@@ -149,7 +162,46 @@ a:active {
     h1 { 
 font-size: 36px;
 }
+    .desktopNav {
+        display: none;
+    }
+    
+    .mobileNav ul  {
+        list-style: none;
+        margin: 0;
+        padding:0;
+        
+    }
+    .mobileNav ul li:hover {
+     background: #555; 
+    width: 100px;
+        
+    }
+    
+    .mobileNav ul li:hover ul {
+       display:block; 
+            }
+    .mobileNav ul li ul {
+    position: absolute;
+        width: 100px;
+        display: none;
  }
+    
+    .mobileNav ul li ul li {
+      background: #555;
+        display: block;
+    }
+    
+    .mobileNav ul li ul li a{
+    display: block;
+    }
+     .mobileNav ul li ul li:hover {
+         background: #666;
+         
+     }
+    }
+    
+    
     @media screen and (max-width:732px) {
     #mainParagraph { 
 font-size: 20px;

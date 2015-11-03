@@ -3,22 +3,36 @@
 <head>
     <title> Page Title</title>
     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
 <body>
-    <nav>
+    <nav class="desktopNav">
         <ul id="menu">
-            <li class="nav"><a href="#">HOME</a></li>
-            <li class="nav"><a href="about.html">ABOUT</a></li>
-            <li class="nav"><a href="tips.html">TIPS</a></li>
-            <li class="nav"><a href="http://mervgibsonimages.com">BUY</a></li>
+            <li class="nav"><a href="#"><i class="material-icons">home</i>HOME</a></li>
+            <li class="nav"><a href="about.html"><i class="material-icons">face</i>ABOUT</a></li>
+            <li class="nav"><a href="tips.html"><i class="material-icons">assignment</i>TIPS</a></li>
+            <li class="nav"><a href="http://mervgibsonimages.com"><i class="material-icons">&#xE227;</i>BUY</a></li>
         </ul>
+            </nav>
+    <nav class="mobileNav">
+        <ul id="menuM">
+            <li id="menuIcon"><i class="material-icons">menu</i>
+                <ul>
+                    <li class="navM"><a href="#"><i class="material-icons">home</i></a></li>
+                    <li class="navM"><a href="about.html"><i class="material-icons">face</i></a></li>
+                    <li class="navM"><a href="tips.html"><i class="material-icons">assignment</i></a></li>
+                    <li class="navM"><a href="http://mervgibsonimages.com"><i class="material-icons">&#xE227;</i></a></li>
+                </ul> </li></ul>
             </nav>
     
     <div id="top">
     <h1>Merv Gibson Images</h1>
     </div>
     <p id="mainParagraph">This website showcases Lowcountry photographer Merv Gibson's images and offers photo tips.</p>
-    <p id="secondaryParagraph">Browse his images here, which are afordably priced on his Web store.</p><br>| Click "buy" to redirect." </p>
+    
+    <p id="secondaryParagraph"><i class="material-icons">shopping_cart</i>Browse his images here, which are afordably priced on his Web store.</p><br>|
+ 
     
     <div id="mainpageDiv">
         <div class="mainimages1">
@@ -29,17 +43,17 @@
         <div class="mainimages1">
                 <!--<img class="frontimages" src="images/window.jpeg">
             <img class="frontimages" src="images/boat.jpeg">
---!>
+-->
 
 
              <div id="shopSelectBox">
     <label for="phototheme"> Shop photos by theme:</label>
     <select id="phototheme" name="folder_name">
                                              
-<!--
+
 http://mervgibsonimages.com/Flowers_c6.htm
   val "flowerPhotos" a href=http://mervgibsonimages.com/Flowers_c6.htm                                         -->
--->
+
 
                                              
                                              
@@ -71,10 +85,10 @@ http://mervgibsonimages.com/Flowers_c6.htm
 <!--
 http://mervgibsonimages.com/Flowers_c6.htm
   val "flowerPhotos" a href=http://mervgibsonimages.com/Flowers_c6.htm                                         -->
--->
 
-                                             
-                                             
+  
+    -->
+   <!--                                          
         <optgroup label="Select Photo Theme"></optgroup>
         <option value=0>select a theme</option>
         <option value="http://mervgibsonimages.com/Birds_c4.htm">Birds</option>
@@ -86,8 +100,7 @@ http://mervgibsonimages.com/Flowers_c6.htm
         <option value="http://mervgibsonimages.com/Roses_c9.htm">Roses</option>
                           </select>
                                   </div>
-    
-    
+  -->
     
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
