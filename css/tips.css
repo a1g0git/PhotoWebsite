@@ -70,7 +70,8 @@ a:active {
 #ps {
     background-color: chartreuse;
     border-radius: 10px;
-}#slr {
+}
+#slr {
     background-color: chartreuse;
     border-radius: 10px;
 }
@@ -89,6 +90,80 @@ a:active {
         max-width: 90%;
            align-content: center;
     }
+            
+}
+    @media screen and (min-width:733px) {
+    .mobileNav {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:732px) {
+ #top { 
+     height: auto;
+ }
+    #slr {
+        width:180px;
+        padding-bottom: 15px;
+    }
+
+    .desktopNav {
+        display: none;
+    }
+    
+    .mobileNav ul  {
+        list-style: none;
+        margin: 0;
+        padding:0;
+        
+    }
+    .mobileNav ul li:hover {
+     background: #555 |transparent; 
+    width: 60px;
+        
+    }
+    
+    .mobileNav ul li:hover ul {
+       display:block; 
+            }
+    .mobileNav ul li ul {
+    position: absolute;
+        width: 60px;
+        display: none;
+ }
+    
+    .mobileNav ul li ul li {
+      background: #555;
+        display: block;
+    }
+    
+    .mobileNav ul li ul li a{
+    display: block;
+                
+        
+    }
+     .mobileNav ul li ul li:hover {
+         background:#999; 
+         
+     }
+    
+    .material-icons {
+        color:azure;
+    }
+    #menuIcon {
+        color: black;
+        background: #555;
+    }
+}
+    @media screen and (min-width: 733px) {
+    .mobileNav {
+        display: none;
+    }
+    
+}
+
+    
 .pick-camera {
     height:36px;
     width:auto;

@@ -1,4 +1,7 @@
-
+body {
+    background-color: azure;
+    
+}
 #aboutTop {
     border: none;
 }
@@ -124,6 +127,10 @@ font-size: 1.5em;
     h1 { 
 font-size: 36px;
 }
+             
+.material-icons {
+    color:azure;
+}
     .desktopNav {
         display: none;
     }
@@ -135,9 +142,7 @@ font-size: 36px;
         
     }
     .mobileNav ul li:hover {
-     background: #555; 
-    width: 100px;
-        
+     background: #555;  
     }
     
     .mobileNav ul li:hover ul {
@@ -152,6 +157,7 @@ font-size: 36px;
     .mobileNav ul li ul li {
       background: #555;
         display: block;
+        
     }
     
     .mobileNav ul li ul li a{
@@ -164,6 +170,7 @@ font-size: 36px;
              
               .material-icons {
                  font-size: 50px;
+                  color: firebrick;
              }
     }
 .contactPopup {
