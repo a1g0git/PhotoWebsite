@@ -65,6 +65,9 @@ a:active {
 #cp {
     background-color: chartreuse;
     border-radius: 10px;
+    button:hover {
+    background-color: cadetblue;
+    }
 }
 
 #ps {
@@ -82,7 +85,9 @@ a:active {
        
     }
            
-
+button:hover {
+  background-color: cadetblue;
+}
 
 
 @media screen and (max-width:732px) {
@@ -107,7 +112,19 @@ a:active {
         width:180px;
         padding-bottom: 15px;
     }
-
+    video {
+    float:left;
+    }
+    #forVideo {
+        margin-right: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    #types{
+    float: left;
+    }
+    
     .desktopNav {
         display: none;
     }
@@ -165,6 +182,7 @@ a:active {
 
     
 .pick-camera {
+    
     height:36px;
     width:auto;
     background-color: chartreuse;
@@ -172,7 +190,16 @@ a:active {
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
+    
 }
+a.button:hover {
+background-color:darkseagreen;
+}
+
+#thirds {
+font-weight: bold;
+}
+
 , *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

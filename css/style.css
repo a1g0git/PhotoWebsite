@@ -5,7 +5,7 @@
 
 
 #top {
-    background-image: url('../images/grass.jpg');
+    background-image: url('../images/grass1.jpg');
     background-repeat: space;
     background-position: center;
     width:100%;
@@ -38,6 +38,11 @@ h1 {
     
 }
 
+#topimages {
+width: 50%;
+    height: auto;
+
+}
 option {
     font-size: 1.5em;
 }
@@ -71,38 +76,61 @@ ul {
     padding-bottom: 10px;
 }
 
+#main-sail {
+    float: left;
+    padding: 8px;
+    display: block;
+    height: auto;
+    width: 50%;
+    border-radius:2px;
+    border-style: ridge;
+    border-color: burlywood;
+
+    margin-top: 0;
+}
+
 #secondaryParagraph {
     float: left;
     font-family: sans-serif;
     font-size: 38px;
     padding: 8px;
     display: block;
-    height: 200px;
-    width:400px;
-    background-color:darkgray;
+    height: auto;
+    width: 50%;
+    background-color:dodgerblue;
+    border-radius: 30px;
+    margin: 10px 10px 0 8px;
 }
     
 #main-store {
 float: right;
     height: 200px;
     width: auto;
+    margin-right: 50px;
+    margin-left: 25px;
+    padding: 0 10px;
 
 }
-.quotecontainer {
+#quote-container {
 float:left;
+    width: 100%;
+    display: block;
     
 }
-#quotetext {
-    font-size: 38px;
-}
 
-#quotetext {
-       .material-icons {
-font-size;300px;
-color:black
-    }
+
+#quotetext .material-icons {
+     
+font-size; 90px;
+color:black;
+    
     font-weight: bold;
     
+}
+
+#quotetext {
+font-style: italic;
+    font-size: 14px;
 }
 #mainpageDiv{
     background-color: lightcyan;
@@ -112,18 +140,29 @@ color:black
 }
 
 .mainimages1 {
-        align-items: center;
+        
+    width: 50%;
+    margin-right: 5px;
+    padding: 5px;
+    float: left;
+    
+    
+}
+
+.mainimages1 .two {
+float: right;
 }
     .frontimages {
-        border-radius: 15%;
+        border-radius: 15%;8
         align-items: center;
 
         
     }
 
 #freepark {
-    width:55%;
-    float: right;
+    width:98%;
+    float: left;
+    padding: 0;
 }
 .bigger {
         border-radius: 15%;
@@ -138,14 +177,17 @@ color:black
 }
 
 #shopSelectBox {
-    float: right;
+    float: left;
     height: 1.55em;
     box-sizing: 2em;
+    width: 400px;
 }
 
 #phototheme {
     height: 4em;
     font-size: 20px;
+    width: 80%;
+    border-radius: 8px;
 }
 a:link {
     text-decoration: none;
@@ -179,14 +221,17 @@ a:active {
    -webkit-appearance: none;
    }
 #bigquote {
-font-size: 10em;
-    color:black;
+font-size: 4 em;
+    color:darkslategrey;
 }
 @media screen and (min-width:733px) {
     .mobileNav {
         display: none;
     }
+#quotetext {
+    font-size: 16px;
     
+}
 }
 
 @media screen and (max-width:732px) {
@@ -206,6 +251,9 @@ font-size: 36px;
         margin: 0;
         padding:0;
         
+    }
+    #hideheron {
+    display: none;
     }
     .mobileNav ul li:hover {
      background: #555 |transparent; 
@@ -243,7 +291,14 @@ font-size: 36px;
     #mainParagraph { 
 font-size: 20px;
 }
+        #secondaryParagraph {
+            width: 80%;
+            font-size:1.5em;
 }
+        #main-store {
+            display: none;
+        }
+    }
     @media screen and (max-width:732px) {
     li { 
 font-size: 18px;
