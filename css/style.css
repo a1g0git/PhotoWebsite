@@ -76,12 +76,19 @@ ul {
     padding-bottom: 10px;
 }
 
+#left-column {
+width: 60%
+}
+.mainBody {
+width: 100%;
+}
+
 #main-sail {
     float: left;
     padding: 8px;
     display: block;
     height: auto;
-    width: 50%;
+    width: 100%;
     border-radius:2px;
     border-style: ridge;
     border-color: burlywood;
@@ -96,7 +103,7 @@ ul {
     padding: 8px;
     display: block;
     height: auto;
-    width: 50%;
+    width: 100%;
     background-color:dodgerblue;
     border-radius: 30px;
     margin: 10px 10px 0 8px;
@@ -104,12 +111,16 @@ ul {
     
 #main-store {
 float: right;
-    height: 200px;
-    width: auto;
-    margin-right: 50px;
-    margin-left: 25px;
-    padding: 0 10px;
+    height: auto;
+    width: 40%;
 
+
+}
+
+.store-screen {
+float: right;
+    width: 80%;
+    height:auto;
 }
 #quote-container {
 float:left;
@@ -141,22 +152,23 @@ font-style: italic;
 
 .mainimages1 {
         
-    width: 50%;
+    width: 100%;
     margin-right: 5px;
     padding: 5px;
     float: left;
+    text-align: center;
+    
     
     
 }
 
-.mainimages1 .two {
-float: right;
-}
+
     .frontimages {
-        border-radius: 15%;8
-        align-items: center;
-
-        
+        border-radius: 15%;
+        text-align: center;
+        width: 30%;
+    height: auto;
+    
     }
 
 #freepark {
@@ -220,16 +232,13 @@ a:active {
    height: 34px;
    -webkit-appearance: none;
    }
-#bigquote {
-font-size: 4 em;
-    color:darkslategrey;
-}
+
 @media screen and (min-width:733px) {
     .mobileNav {
         display: none;
     }
 #quotetext {
-    font-size: 16px;
+    font-size: 24px;
     
 }
 }
@@ -252,6 +261,11 @@ font-size: 36px;
         padding:0;
         
     }
+.frontimages {
+    width: 80%;
+        height: auto;
+    }
+    
     #hideheron {
     display: none;
     }
@@ -291,8 +305,11 @@ font-size: 36px;
     #mainParagraph { 
 font-size: 20px;
 }
+        #left-column {
+width: 90%;
+}
         #secondaryParagraph {
-            width: 80%;
+            width: 100%;
             font-size:1.5em;
 }
         #main-store {
