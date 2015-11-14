@@ -63,30 +63,25 @@ a:active {
 }
 
 #cp {
-    background-color: chartreuse;
+    
     border-radius: 10px;
-    button:hover {
-    background-color: cadetblue;
-    }
 }
 
 #ps {
-    background-color: chartreuse;
     border-radius: 10px;
 }
 #slr {
-    background-color: chartreuse;
     border-radius: 10px;
 }
     
    button {
         padding-left: 15px;
-        background-color: chartreuse;
+        background-color: cadetblue;
        
     }
            
 button:hover {
-  background-color: cadetblue;
+  background-color: chartreuse
 }
 
 
@@ -185,7 +180,6 @@ button:hover {
     
     height:36px;
     width:auto;
-    background-color: chartreuse;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
