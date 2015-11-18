@@ -116,6 +116,12 @@ button:hover {
         
     }
     
+    @media screen and (max-width:732px) and (min-width:750px) {
+    #forVideo {
+        align-content: center;
+    }
+}
+    
     #types{
     float: left;
     }

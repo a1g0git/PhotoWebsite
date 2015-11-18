@@ -89,11 +89,11 @@ width: 100%;
     display: block;
     height: auto;
     width: 100%;
-    border-radius:2px;
+    border-radius:5px;
     border-style: ridge;
     border-color: burlywood;
-
-    margin-top: 0;
+    border-width: thick;
+    margin-top: 8px;
 }
 
 #secondaryParagraph {
@@ -174,7 +174,9 @@ font-style: italic;
 #freepark {
     width:98%;
     float: left;
-    padding: 0;
+    padding: 5px;
+    padding-left: 5px;
+        
 }
 .bigger {
         border-radius: 15%;
@@ -241,8 +243,11 @@ a:active {
     font-size: 24px;
     
 }
+    
+    #flower {
+        display: none;
 }
-
+}
 @media screen and (max-width:732px) {
  #top { 
      height: auto;
@@ -262,13 +267,15 @@ font-size: 36px;
         
     }
 .frontimages {
-    width: 98%;
+    width: 40%;
         height: auto;
     }
     
+/*
     #hideheron {
     display: none;
     }
+*/
     .mobileNav ul li:hover {
      background: #555 |transparent; 
     width: 60px;
